@@ -5,6 +5,41 @@
   --color-white-text: #FFffff
 }
 
+/*********************/
+/* Scroll-Barr */
+/*********************/
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #422110;
+  /* border-radius: 10px; */
+  color: #021227;
+  background-color: #422110;
+  /* background-color: transparent; */
+  width: 30px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dd9506;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: var(--color-button); */
+  cursor: pointer;
+}
+
+/*********************/
+/* Scroll-Barr End */
+/*********************/
+
 * {
   margin: 0;
   padding: 0;
