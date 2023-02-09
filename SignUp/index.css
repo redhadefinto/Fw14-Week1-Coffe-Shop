@@ -28,6 +28,7 @@
 
 .form-table {
   width: 60%;
+  padding: 0 0 3rem;
 }
 
 .heading {
@@ -162,11 +163,11 @@
   justify-content: space-between;
   margin: auto;
   padding: 50px;
-  width: 70%;
+  width: 80%;
   color: var(--color-title);
   background-color: #FFFFFF;
   position: relative;
-  top: -60px;
+  top: -40px;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   margin-bottom: 0;
@@ -200,15 +201,18 @@
 .mainFooter {
   display: grid;
   background-color: #F8F8F8;
-  padding: 50px;
+  padding: 2rem 5rem;
   grid-template-columns: 2fr 1fr;
+  /* border: 1px solid black; */
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin-left: 80px;
+  width: 100%;
+  /* margin-left: 80px; */
+  padding: 0 3rem;
+  background-color: 1px solid red;
 }
 
 .info-description {
@@ -216,6 +220,7 @@
   line-height: 20px;
   margin-top: 25px;
   font-weight: 600;
+  font-family: 'Rubik';
 }
 
 .logo-footer {
@@ -231,14 +236,14 @@
 }
 
 .sosialMedia {
-  background-color: #e67409;
+  background-color: #472300;
   margin: 10px;
   width: 50px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 
@@ -246,34 +251,37 @@
   cursor: pointer;
   background-color: #fffdfc;
 }
-
-.sosialMedia > img {
-  /* color: var(--color-Brown); */
+.sosialMedia img {
+  width: 50px;
+  height: 50px;
 }
 
 .copyRight {
-  color:#AFB5C0;
+  color:#717377;
 }
 
 .menu {
   display: flex;
   padding: 10px;
   line-height: 30px;
+  gap: 5px;
 }
 
 .menu-footer {
-  padding: 10px;
+  /* padding: 15px 10px; */
 }
 
 .faq-footer {
-  padding: 10px;
-  margin-left: 90px;
+  /* padding: 10px; */
+  margin-left: 3rem;
+  /* padding: 0; */
 }
 
-ul  li {
+ul li {
   color: #4F5665;
   list-style: none;
   margin-top:  5px;
+  background-color: 1px solid green;
 }
 
 ul li:hover {
@@ -581,7 +589,7 @@ ul li:hover {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width:1024px){
+@media only screen and (min-width: 768px) and (max-width:1023px){
   .banner {
     display: none;
   }

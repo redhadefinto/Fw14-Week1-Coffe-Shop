@@ -354,28 +354,26 @@ cursor: pointer;
   top: -3rem;
 }
 .card .card-header .card-img1 {
-  background-image: url("./assets/Main/Images/Card/left-card-img.png");
+  background-image: url("https://s3-alpha-sig.figma.com/img/b8f7/0e2a/0d98dd6a1ea259209e5b715734ee5a22?Expires=1676851200&Signature=QFmF8pyWw2LEkiA0KTEkANujMOh9vIXhOZ~WWpvxA~4sFATlHHULb~XlzsIemU5f0wJvKnsAoS6fE4WVwrDR4wWzkHvpECUMhupY1wQKjvMBurLIu4I3R6GAA4GVBRcNuHfo7cYZc8K56pMxvPvilfsdngLQXEqlCgLmFeSaGgprK4GN2VmN3l1BtrTXKZODaTnibe6ALcUpqb5BufJ-Mo-4TiC85mqSCdvgtrFnxPo4BsW1JV5wAJorBQO5iYLokjaokRCx0b7S7ozX4VZgWE6Nd9eDptxaj7~Xu-ah8q5Hv51LlxdoG5vsD0JoUMyGGtNhPI9L7kWpKLRwAyB~Bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -45px;
-  background-position-x: -2px; */
+  background-position-y: -45px;
+  background-position-x: -2px;
 }
 .card .card-header .card-img2 {
-  background-image: url("./assets/Main/Images/Card/middle-card-img.png");
+  background-image: url("https://s3-alpha-sig.figma.com/img/1195/e3b7/a63f096d3edcb57b0bc937039acae071?Expires=1676851200&Signature=DJNutzuQJ86Zi9CHEpUcKgCF-VOhiyEJuGqv9yfkqck5vFkJvtqsGXUQNTS3Mb649TyfCLClwqgDzj79ezXGus7X3Ak-XzBbLALeFrxGIxzZK6jsbdtITm~YoQqSb-0PBzFvV5lj~FdtPfC1zTFCMcIgXvNzbLshnDb4QK3i7AIpiWRz24MCaVa8i6LW25CfpdglLZLvXeVX15V6hlXhs-wjpHo3x6z0-rjbvKikHm0UhBZKCNofDkuEq3iTxhzU7LrNLrfr4R5POM-ms79IFoR1W-wKIk2jmdVxLdsN42KRl~smDBYzQ3cX~dEf-YJhdz9HwZqFQl27Tc-mcEsSZw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -45px; */
-  /* background-position-x: -2px; */
 }
 .card .card-header .card-img3 {
-  background-image: url("./assets/Main/Images/Card/img-right.png");
+  background-image: url("https://s3-alpha-sig.figma.com/img/01c2/516d/130f4255d3fd6c5a42948d74ac2a14f4?Expires=1676851200&Signature=SYYV48SwOuVU2aqHPy0gH8qUlYDKKf17U8MzWy52yJRpEDy-MSlYBgHNYrUOk5AIzqtzBTMHcpsOBOm7trHSSCKWXF1WsFQ5RgB8pAYKdM14gUY54qwnafaFZQyQnLo27icmyLqDTr3t~mmg5yBrxMvvMdeXe~Rg~k9K7UtQ~zFJXc7EQYoggjUiSQQ-ZnuYqXyKbLvnxC0U8JDe8cUjRQjHJ8o2GMulQBc1CDMVm7djWGGYoO9wtEjLkKASpeyjmFdrtsaPrFaPRZdX0FcBoT9KFbOH2ZVp9LTg-nrXgpnYkTpLarbmiVPXC6a97tqGcrlcPmtEn3PRB~OmAdRMkw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position-y: -1.6rem; */
-  /* background-position-x: -2px; */
+  background-position-y: -1.6rem;
+  background-position-x: -2px;
 }
 .card-header {
   width: 100%;
