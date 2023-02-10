@@ -604,7 +604,7 @@ ul li:hover {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
      /* Heading Start */
   .logo-container {
     /* border: 1px solid blue; */
@@ -714,6 +714,7 @@ ul li:hover {
   }
   .container-body-footer {
     flex-direction: column;
+    top: 3rem;
   }
   .value {
     background-color: #fff;
@@ -740,8 +741,9 @@ ul li:hover {
     "a a"
     "b b"
     ;
-    margin: 20px auto 0;
+    margin: 6rem auto 0;
     text-align: center;
+    padding: 2rem;
   }
   .info {
     grid-area: a;
@@ -783,7 +785,7 @@ ul li:hover {
     height: 50px;
   }
 }
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 425px) and (max-width: 767px) {
      /* Heading Start */
   .logo-container {
     /* border: 1px solid blue; */
@@ -852,6 +854,7 @@ ul li:hover {
   }
   .body-footer {
     padding: 3rem 0;
+    display: flex;
   }
   .container-body-footer {
     background-color: #fff;
@@ -913,6 +916,7 @@ ul li:hover {
     ;
     margin: 20px auto 0;
     text-align: center;
+    padding: 0 2rem;
   }
   .info {
     grid-area: a;
@@ -950,7 +954,7 @@ ul li:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
      /* Heading Start */
   .logo-container {
     display: flex;
@@ -1105,15 +1109,15 @@ ul li:hover {
     align-items: center;
   }
 
-     /* Footer */
-    .mainFooter {
+  .mainFooter {
     display: grid;
     grid-template-areas: 
     "a a"
     "b b"
     ;
-    margin: 20px auto 0;
+    margin: 100px auto 0;
     text-align: center;
+    padding: 0 5px 30px;
   }
   .info {
     grid-area: a;
@@ -1123,9 +1127,6 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .info-description br {
-    display: none;
   }
   .media {
     display: flex;
